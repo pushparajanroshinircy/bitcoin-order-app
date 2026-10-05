@@ -1,4 +1,4 @@
-name: Bitcoin order App
+name: Bitcoin order Appx
 on:
   push:
     branches:
@@ -66,4 +66,4 @@ jobs:
           body: ${{ steps.changelog.outputs.clean_changelog }}
       - name: Deploy
         run: |
-          npm run deploy
+          npm run deploy 
